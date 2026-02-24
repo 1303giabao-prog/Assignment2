@@ -16,7 +16,7 @@ public class Hybrid extends Vehicle {
         this.powerTrain = powerTrain;
         this.electricRange = electricRange;
     }
-
+//so this make main understand data in file and give the correct output
     private String convertPowerTrain() {
         switch (powerTrain) {
             case "E": return "Series Hybrid";
